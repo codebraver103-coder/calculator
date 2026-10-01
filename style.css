@@ -1,0 +1,61 @@
+body{
+    display:flex;
+   justify-content:center;
+   align-items:center;
+    
+
+}
+.flex{
+    display:flex;
+    flex-direction:column;
+
+
+}
+div{
+    width:500px;
+    height:600px;
+    background-color:black;
+   
+
+}
+.buttons{
+    display:grid;
+    color:aliceblue;
+    gap:12px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+button{
+    width:100px;
+    height:70px;
+    border-radius:100px;
+    border:none;
+}
+button:hover{
+    background-color:#e5e0d5;
+}
+.style{
+    background-color:plum;
+}
+.style2{
+    background-color:blueviolet;
+}
+
+.display{
+    background-color:gray;
+    height: 100px;
+    width:auto;
+    border:solid black 3px;
+    border-bottom:none;
+    font-size:32px;
+    color:white;
+}
+.result{
+    background-color:gray;
+    margin-bottom:10px;
+   color:white;
+   font-size:18px;
+   border:solid black;
+   width:auto;
+   border-top:none;
+   
+}
